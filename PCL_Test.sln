@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android", "PCL_Test_Android\Android.csproj", "{C3E7F992-C972-4F33-9EA7-6D4483234DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableLibrary", "PortableLibrary\PortableLibrary.csproj", "{389AB51E-481F-4CA7-966A-C768EF6D4C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{3CFA25B0-C6FE-4C26-8F84-1773837F94C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{389AB51E-481F-4CA7-966A-C768EF6D4C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389AB51E-481F-4CA7-966A-C768EF6D4C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389AB51E-481F-4CA7-966A-C768EF6D4C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389AB51E-481F-4CA7-966A-C768EF6D4C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFA25B0-C6FE-4C26-8F84-1773837F94C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFA25B0-C6FE-4C26-8F84-1773837F94C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFA25B0-C6FE-4C26-8F84-1773837F94C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFA25B0-C6FE-4C26-8F84-1773837F94C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E7F992-C972-4F33-9EA7-6D4483234DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E7F992-C972-4F33-9EA7-6D4483234DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E7F992-C972-4F33-9EA7-6D4483234DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E7F992-C972-4F33-9EA7-6D4483234DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PCL_Test_Android\Android.csproj
+	EndGlobalSection
+EndGlobal
